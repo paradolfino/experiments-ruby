@@ -1,14 +1,19 @@
+def form_area_codes(city)
+    area_code = [rand(9), rand(9), rand(9)]
+    return {city: city, code: area_code}
+end
 
 def form_city
     possibles = ['a','e','i','o','u','st','sk','ba','bo','bi','ch','ca','co','da','de','fe','fa','ma','mo','na','th']
     possiblesArr = []
     rand(10).times { possiblesArr.push(possibles[rand(possibles.length)]) }
-    makeCities(possiblesArr)
+    form_area_codes(possiblesArr.join(''))
 end
 
-def make_city(arr)
-    form_area_codes(arr.join(''))
+def make_directory
+    directory = []
+    rand(10).times { directory.push(form_city) }
+    return directory
 end
 
-def form_area_codes(city)
-end
+puts make_directory
