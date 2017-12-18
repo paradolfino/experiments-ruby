@@ -1,5 +1,6 @@
 # Hashes
-mydetails = {}
-100.times { mydetails[rand(100)] = rand(100) }
-mydetails.each { |k,v| mydetails.delete(k) if v > rand(25) }
-print mydetails.length
+nums = {}
+num = 100
+rand(num).times { nums[rand(num)] = rand(num) }
+
+puts nums.select { |k,v| v.odd? }
