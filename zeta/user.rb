@@ -1,7 +1,8 @@
 class User
-    attr_accessor :name
-    def initialize(name)
+    attr_accessor :name, :email
+    def initialize(name, email)
         @name = name
+        @email = email
     end
     def run
         puts "runs"
@@ -9,11 +10,11 @@ class User
     
 end
 
-user = User.new("Gotha")
-user1 = User.new("Frast")
-user2 = User.new("Snard")
+user = User.new('','')
 
-user.run
-puts user.name
-user.name = "Johan"
-puts user.name
+puts "What is your name?"
+user.name = gets.chomp
+puts "What is your email?"
+user.email = gets.chomp
+puts "Ah, so you are #{user.name} with an address of #{user.email}"
+
