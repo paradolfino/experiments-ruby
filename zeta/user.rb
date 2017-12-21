@@ -1,4 +1,11 @@
+module Destructable
+    def destroy(object)
+        puts "I will destroy #{object}"
+    end
+end
+
 class User
+    include Destructable
     attr_accessor :name, :email
     def initialize(name, email)
         @name = name
@@ -7,14 +14,21 @@ class User
     def run
         puts "runs"
     end
+
+    def self.id
+        puts "I am a class method"
+    end
     
 end
 
-user = User.new('','')
+class Buyer < User
+end
 
-puts "What is your name?"
-user.name = gets.chomp
-puts "What is your email?"
-user.email = gets.chomp
-puts "Ah, so you are #{user.name} with an address of #{user.email}"
+class Seller < User
+end
 
+class Admin < User
+end
+
+user = User.new('Mast','mast.com')
+user.destroy(user)
