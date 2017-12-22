@@ -20,7 +20,7 @@ class Eta
 
     def save
         self_json = {email: @email, name: @name, permissions: @permissions}.to_json
-        open('eta.json') do |file|
+        open('eta.json', 'a') do |file|
             file.puts self_json
         end
     end
