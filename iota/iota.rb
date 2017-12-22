@@ -2,7 +2,8 @@
 
 def detect_file
    mod = Dir.glob("*").max_by {|f| File.mtime(f)}
-   commit_loop(mod)
+   mod = mod.split('/')
+   commit_loop(mod.pop)
 end
 
 def commit_loop(ref)
@@ -15,4 +16,6 @@ end
 loop do
     detect_file
 end
+#Dir.glob("*").max_by {|f| File.mtime(f)}
 #Dir.glob("#{Dir.pwd}**/").max_by {|f| File.mtime(f)}
+#Dir.glob("*/*").max_by {|f| File.mtime(f)}
