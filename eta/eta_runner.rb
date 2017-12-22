@@ -1,7 +1,15 @@
 require 'pp'
 require_relative 'eta'
 
-eta1 = Eta.new 'rol.com', 'Mastodon'
+puts "What is your name?"
+
+eta_name = gets.chomp
+
+puts "#{eta_name}, great! What's your email?"
+
+eta_mail = gets.chomp
+
+eta1 = Eta.new eta_name, eta_mail
 
 pp eta1
 
