@@ -29,3 +29,13 @@ modification: []
 modification: ["b"]
 modification: ["g"]
 modification: ["g", "c", "g", "d", "g"]
+modification: gb
+modification: bga
+modification: gdfcf
+modification: egefbc
+modification: bg
+modification: e
+modification: gfggga
+modification: cgff
+modification: fcadf
+modification: gec
