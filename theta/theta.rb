@@ -3,11 +3,11 @@ def commit_loop
     token = []
     rand(key.length).times { token.push(key[rand(key.length)]) }
     open('commits.txt', 'a') do |file|
-        file.puts "modification: #{token}"
+        file.puts "modification: #{token.join('')}"
     end
     system "git add ."
     sleep 1
-    system "git commit -m 'test'"
+    system "git commit -m #{token.join('')}"
 end
 
 def commit_times(times)
