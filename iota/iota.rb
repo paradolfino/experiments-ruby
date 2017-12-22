@@ -15,3 +15,5 @@ end
 loop do
     detect_file
 end
+
+this was another test
