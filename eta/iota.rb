@@ -15,4 +15,4 @@ end
 loop do
     detect_file
 end
-#Dir.glob("#{Dir.pwd}**/*").max_by {|f| File.mtime(f)}
+#Dir.glob("#{Dir.pwd}**/").max_by {|f| File.mtime(f)}
