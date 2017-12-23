@@ -26,6 +26,7 @@ class GitReaper
     end
 
     def self.threader(branch)
+        puts "Preparing to Reap on #{branch} branch."
         reaper = Thread.new do
             while true
                 GitReaper.detect_file
