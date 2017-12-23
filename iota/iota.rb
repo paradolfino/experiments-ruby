@@ -40,12 +40,13 @@ class GitReaper
     end
 
     def self.start
-        
+        branch = `git checkout`
+        puts branch
     end
 
 end
 
-GitReaper.threader
+GitReaper.start
 #Dir.glob("*").max_by {|f| File.mtime(f)}
 #Dir.glob("#{Dir.pwd}**/").max_by {|f| File.mtime(f)}
 #Dir.glob("*/*").max_by {|f| File.mtime(f)}
