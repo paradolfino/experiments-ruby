@@ -7,12 +7,13 @@ def detect_file
 end
 
 def execute(param)
-    system param
-    if $? == 0
-        puts 'reaped'
-    else
-        puts 'stalking'
-    end
+    stalker = `#{param}`
+    puts stalker
+    #if $? == 0
+        #puts 'reaped'
+    #else
+        #puts 'stalking'
+    #end
 end
 
 def commit_loop(ref)
