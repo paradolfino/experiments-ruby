@@ -7,7 +7,7 @@ def detect_file
 end
 
 def execute(param)
-    stalker = `#{param}`
+    stalker = %x{#{param}}
     puts stalker
     #if $? == 0
         #puts 'reaped'
