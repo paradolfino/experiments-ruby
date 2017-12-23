@@ -7,11 +7,9 @@ def detect_file
 end
 
 def execute(param)
-    system param
-    if $? == 0
-        puts 'reaped'
-    else
-        puts 'stalking'
+    stalker = %x{#{param}}
+    if stalker.include? "nothing to commit" 
+        puts "Stalking"
     end
 end
 
@@ -30,7 +28,9 @@ reaper = Thread.new do
  end
  
  gets
+ puts "Reaping"
  execute "git push -u origin december"
+ puts "Executing"
  reaper.kill
 #Dir.glob("*").max_by {|f| File.mtime(f)}
 #Dir.glob("#{Dir.pwd}**/").max_by {|f| File.mtime(f)}
