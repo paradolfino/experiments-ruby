@@ -25,7 +25,7 @@ class GitReaper
         GitReaper.execute "git commit -m \"#{ref[0]}: #{verb[rand(verb.length)]}: #{ref[1]}\""
     end
 
-    def self.threader
+    def self.threader(branch)
         reaper = Thread.new do
             while true
                 GitReaper.detect_file
@@ -34,14 +34,17 @@ class GitReaper
         
         gets
         puts "Reaping"
-        GitReaper.execute "git push -u origin december"
+        GitReaper.execute "git push -u origin #{branch}"
         puts "Executing"
         reaper.kill
     end
 
     def self.start
         branch = `git checkout`
-        puts branch
+        branch = branch.split("/")
+        branch = branch.pop
+        branch = branch.gsub(/[^-\p{Alnum}]/,"")
+        GitReaper.threader(branch)
     end
 
 end
