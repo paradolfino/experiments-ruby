@@ -21,6 +21,7 @@ reaper = Thread.new do
  end
  
  gets
+ system "git push -u origin december"
  reaper.kill
 #Dir.glob("*").max_by {|f| File.mtime(f)}
 #Dir.glob("#{Dir.pwd}**/").max_by {|f| File.mtime(f)}
