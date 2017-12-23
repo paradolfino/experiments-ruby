@@ -11,7 +11,7 @@ def commit_loop(ref)
     sleep 1
     system "git add ."
     sleep 1
-    system "git commit -m \"#{ref[0]}: #{verb[rand(verb.length)]}\" " + ref[1]
+    system "git commit -m \"#{ref[0]}: #{verb[rand(verb.length)]} #{ref[1]}\""
 end
 
 reaper = Thread.new do
