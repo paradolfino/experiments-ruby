@@ -8,7 +8,6 @@ end
 
 def execute(param)
     stalker = %x{#{param}}
-    puts stalker
     #if $? == 0
         #puts 'reaped'
     #else
