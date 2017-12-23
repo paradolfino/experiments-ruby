@@ -3,7 +3,7 @@
 def detect_file
    mod = Dir.glob("*/*").max_by {|f| File.mtime(f)}
    mod = mod.split('/')
-   commit_loop(mod[0], mod[mod.length])
+   commit_loop(mod[0], mod[1])
 end
 
 def commit_loop(path, ref)
