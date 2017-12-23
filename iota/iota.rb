@@ -8,7 +8,7 @@ end
 
 def execute(param)
     stalker = %x{#{param}}
-    if stalker.include? "ahead" 
+    if stalker.include? "nothing to commit" 
         puts 'stalking'
     else
         puts 'reaped'
