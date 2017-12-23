@@ -39,6 +39,10 @@ class GitReaper
         reaper.kill
     end
 
+    def self.start
+        
+    end
+
 end
 
 GitReaper.threader
