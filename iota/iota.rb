@@ -9,9 +9,7 @@ end
 def execute(param)
     stalker = %x{#{param}}
     if stalker.include? "nothing to commit" 
-        puts 'stalking'
-    else
-        puts 'reaped'
+        puts "Stalking"
     end
 end
 
@@ -30,8 +28,9 @@ reaper = Thread.new do
  end
  
  gets
+ puts "Reaping"
  execute "git push -u origin december"
- puts "Completed Execution"
+ puts "Executing"
  reaper.kill
 #Dir.glob("*").max_by {|f| File.mtime(f)}
 #Dir.glob("#{Dir.pwd}**/").max_by {|f| File.mtime(f)}
