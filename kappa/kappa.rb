@@ -9,3 +9,5 @@ nam2 = Proc.new do |x,y| #multi line syntax
 end
 
 p nam2[6,6]
+
+#procs will ignore extra arguments

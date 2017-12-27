@@ -6,3 +6,5 @@ p full_name.call("Test","Tests")
 
 full_name = -> (first, last) { first + " " + last }
 p full_name.call("Test","Tests")
+
+#lamdas will throw an error for wrong number of arguments
