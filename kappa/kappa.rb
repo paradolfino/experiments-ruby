@@ -11,3 +11,12 @@ end
 p nam2[6,6]
 
 #procs will ignore extra arguments
+
+def my_method
+    x = Proc.new { return }
+    x.call
+    p "Text"
+end
+
+my_method
+#proc will skip the rest of the method when return is called inside Proc.new
