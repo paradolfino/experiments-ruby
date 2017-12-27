@@ -9,4 +9,6 @@
 #print_address city: 'Arlington', state: "Tx", zip: '76014'
 
 def sms_generator api_key, num, msg, locale
+
+end
     
