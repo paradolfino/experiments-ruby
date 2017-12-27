@@ -1,3 +1,4 @@
 25/12/2017 20:57:pool[102w04]: practice using ruby procs
 26/12/2017 20:43:pool[pretty-living-cow-le2762]: practice ruby lambdas
 26/12/2017 20:51:pool[rapid-shining-rabbit-nzxknb]: more practice on difference between procs and lambdas, and their behaviors
+26/12/2017 20:59:pool[brilliant-rolling-mountain-2j8340]: practice new method syntax for ruby 2.3
