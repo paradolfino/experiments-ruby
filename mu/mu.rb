@@ -6,4 +6,4 @@ def print_address city:, state:, zip:
     puts zip
 end
 
-print_address city: 'Arlington', "Tx", '76014'
+print_address city: 'Arlington', state: "Tx", zip: '76014'
