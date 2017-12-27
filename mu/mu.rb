@@ -1,0 +1,1 @@
+#new method syntax for ruby 2.3 practice
