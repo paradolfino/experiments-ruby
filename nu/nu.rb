@@ -20,8 +20,11 @@
 
 # roster data
 
+#Options
 def invoice options={}
     puts options[:company]
     puts options[:total]
     puts options[:something]
 end
+
+invoice company: 'Wow', total: 'WOW'
