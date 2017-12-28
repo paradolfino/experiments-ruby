@@ -8,13 +8,13 @@
 
 #print_address city: 'Arlington', state: "Tx", zip: '76014'
 
-def sms_generator api_key, num, msg, locale
+# def sms_generator api_key, num, msg, locale
 
-end
+# end
 
-#sms_generator 5555555, 'asdalskdlas', 'hi', 'us' order matters
+# #sms_generator 5555555, 'asdalskdlas', 'hi', 'us' order matters
 
-sms_generator num: 5555555, api_key:'asdalskdlas', msg: 'hi', locale: 'us' #named arguments
+# sms_generator num: 5555555, api_key:'asdalskdlas', msg: 'hi', locale: 'us' #named arguments
 
 
     
