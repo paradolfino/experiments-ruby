@@ -17,7 +17,9 @@
 # sms_generator num: 5555555, api_key:'asdalskdlas', msg: 'hi', locale: 'us' #named arguments
 
 
-def stream_movie title:, lang:
+def stream_movie title:, lang: "ENG"
     puts title
     puts lang
-end    
+end
+
+stream_movie title: "FFFREAK"
