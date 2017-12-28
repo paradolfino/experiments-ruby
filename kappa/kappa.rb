@@ -19,4 +19,4 @@ def my_method
 end
 
 my_method
-#proc will skip the rest of the method when return is called inside Proc.new
+#proc will skip the rest of the method when return is called
