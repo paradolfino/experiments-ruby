@@ -12,5 +12,9 @@ def sms_generator api_key, num, msg, locale
 
 end
 
-#sms_generator 5555555, 'asdalskdlas', 'hi', 'us'
+#sms_generator 5555555, 'asdalskdlas', 'hi', 'us' order matters
+
+sms_generator num: 5555555, api_key:'asdalskdlas', msg: 'hi', locale: 'us'
+
+
     
