@@ -9,3 +9,4 @@
 
 def roster **players_with_positions
     players_with_positions.each { |k,v| puts "Player #{k}, Position #{v}" }
+end
