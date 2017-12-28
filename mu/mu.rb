@@ -14,7 +14,7 @@ end
 
 #sms_generator 5555555, 'asdalskdlas', 'hi', 'us' order matters
 
-sms_generator num: 5555555, api_key:'asdalskdlas', msg: 'hi', locale: 'us'
+sms_generator num: 5555555, api_key:'asdalskdlas', msg: 'hi', locale: 'us' #named arguments
 
 
     
