@@ -9,13 +9,14 @@
 # roster 'Aloooo', 'Rodkin', 'Splat'
 
 #Keyword Value Splat Args
-def roster **players_with_positions
-    players_with_positions.each { |k,v| puts "Player #{k}, Position #{v}" }
-end
+# def roster **players_with_positions
+#     players_with_positions.each { |k,v| puts "Player #{k}, Position #{v}" }
+# end
 
-data = {
-    "Lol": "200",
-    "Varg": "Vom"
-}
+# data = {
+#     "Lol": "200",
+#     "Varg": "Vom"
+# }
 
-roster data
+# roster data
+
