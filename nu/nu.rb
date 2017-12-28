@@ -27,4 +27,4 @@ def invoice options={}
     puts options[:something]
 end
 
-invoice company: 'Wow', total: 'WOW'
+invoice company: 'Wow', total: 'WOW' #optionalls include :something
