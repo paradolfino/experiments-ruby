@@ -3,3 +3,5 @@
 open('test.rb', 'a') do |file|
     file.puts "\ntest"
 end
+
+test
