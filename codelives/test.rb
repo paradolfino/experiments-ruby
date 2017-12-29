@@ -6,3 +6,5 @@ open('test.rb', 'a') do |file|
     file.puts "\n" + input
 end
 
+
+ puts "success"
