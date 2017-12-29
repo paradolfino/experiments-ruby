@@ -1,5 +1,5 @@
 #testing living code for possible implementation with gitreaper
 
 open('test.rb', 'a') do |file|
-    file.puts "test"
-endtest
+    file.puts "\ntest"
+end
