@@ -30,6 +30,6 @@
 
 #select
 
-(1..100).to_a.select { |x| puts x.even? }
+(1..100).to_a.select { |x| puts x.even }
 (1..100).to_a.select(&:even?)
 
