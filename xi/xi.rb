@@ -35,5 +35,7 @@
 # (1..100).to_a.select { |x| if x.even? then puts x end }
 # (1..100).to_a.select(&:even?)
 
-p %w(what on earth is this?)
+arr = %w(what on earth is this?)
+
+puts arr.select { |x| x.length > 5}
 
