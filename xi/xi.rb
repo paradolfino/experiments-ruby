@@ -1,11 +1,11 @@
 #loops other than while/each
 
-#for in
+#::for in::
 # for i in 0..42
 #     p i
 # end
 
-#nested iterator
+#::nested iterator::
 # obj = {
 #     sub_obj1: {
 #         sso1: 1,
@@ -28,7 +28,7 @@
 #     end
 # end
 
-#select
+#::select::
 # (1..100).to_a.select do |x|
 #     #stuff
 # end
@@ -38,4 +38,6 @@
 # arr = %w(what on earth is this?)
 
 # arr.select { |x| puts x if x.length > 2}
+
+#::regular expressions::
 
