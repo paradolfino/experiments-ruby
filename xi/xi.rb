@@ -37,5 +37,5 @@
 
 arr = %w(what on earth is this?)
 
-puts arr.select { |x| x.length > 5}
+arr.select { |x| x.length > 5}
 
