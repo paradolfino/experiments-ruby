@@ -20,3 +20,10 @@ obj = {
         sso2_4: 8
     }
 }
+
+obj.each do |key, value|
+    puts key
+    value.each do |subkey, subvalue|
+        p "#{subkey} for #{subvalue}"
+    end
+end
