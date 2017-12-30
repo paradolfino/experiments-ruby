@@ -35,7 +35,7 @@
 # (1..100).to_a.select { |x| if x.even? then puts x end }
 # (1..100).to_a.select(&:even?)
 
-arr = %w(what on earth is this?)
+# arr = %w(what on earth is this?)
 
-arr.select { |x| puts x if x.length > 2}
+# arr.select { |x| puts x if x.length > 2}
 
