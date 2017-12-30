@@ -1,2 +1,2 @@
-#loops
+#loops other than while/each
 
