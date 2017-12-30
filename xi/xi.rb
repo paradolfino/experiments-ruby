@@ -29,7 +29,9 @@
 # end
 
 #select
-
+(1..100).to_a.select do |x|
+    #stuff
+end
 (1..100).to_a.select { |x| if x.even? then puts x end }
 (1..100).to_a.select(&:even?)
 
