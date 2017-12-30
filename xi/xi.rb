@@ -35,3 +35,5 @@
 # (1..100).to_a.select { |x| if x.even? then puts x end }
 # (1..100).to_a.select(&:even?)
 
+p %w(what on earth is this?)
+
