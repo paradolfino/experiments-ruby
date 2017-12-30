@@ -41,5 +41,5 @@
 
 #::regular expressions::
 
-%w(a b c d e f g).select { |v| v =~ /[aeiou]/}
+%w(a b c d e f g).select { |v| puts v if v =~ /[aeiou]/}
 
