@@ -1,1 +1,1 @@
-(0..50).to_a.map { |x| x.to_i }
+(0..50).to_a.map { |x| puts x.to_i }
