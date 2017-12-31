@@ -1,4 +1,4 @@
 #inject
-test = (0..50).to_a.inject(&:+)
+test = (0..9).to_a.inject(&:+)
 p test
     
