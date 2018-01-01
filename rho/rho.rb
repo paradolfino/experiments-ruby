@@ -8,7 +8,9 @@ class ApiConnector
     end
 
     def testing_init
-
+        p @title
+        p @desc
+        p @url
     end
 end
 
