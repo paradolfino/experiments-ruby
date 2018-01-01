@@ -3,7 +3,7 @@ class ApiConnector
 
     def initialize(title,desc,url = "google")
         @title = title
-        @description = description
+        @desc = desc
         @url = url
     end
 
