@@ -8,3 +8,4 @@
 29/12/2017 21:29:pool[rapid-living-river-w3n6i6]: practice for in, nested iterators, select, and regex with select
 30/12/2017 19:15:pool[brilliant-living-rabbit-510e51]: practice ruby map method
 30/12/2017 19:24:pool[rapid-shining-rabbit-u5yyu5]: practice ruby inject method
+31/12/2017 18:17:pool[pretty-rolling-mountain-hv8arv]: practice OOP
