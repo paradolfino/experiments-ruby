@@ -1,7 +1,7 @@
 class ApiConnector
     attr_accessor :title, :description, :url
 
-    def initialize(title: title,desc: desc,url: url = "google")
+    def initialize(title: title, desc: desc, url: url = "google")
         @title = title
         @desc = desc
         @url = url
