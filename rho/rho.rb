@@ -15,6 +15,6 @@ class ApiConnector
 end
 
 
-api = ApiConnector.new title:"Lol", url:"lol", desc: "asdasdl"
+api = ApiConnector.new
 
 api.testing_init
