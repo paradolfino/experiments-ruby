@@ -15,6 +15,6 @@ class ApiConnector
 end
 
 
-api = ApiConnector.new
+api = ApiConnector.new('test','test','test')
 
 api.testing_init
