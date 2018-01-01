@@ -16,3 +16,5 @@ end
 
 
 api = ApiConnecter.new title:"Lol", url:"lol", desc: "asdasdl"
+
+api.testing_init
