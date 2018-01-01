@@ -1,7 +1,7 @@
 class ApiConnector
     attr_accessor :title, :description, :url
 
-    def initialize title,desc,:url
+    def initialize title,desc,url
         @title = title
         @description = description
         @url = url
@@ -14,3 +14,5 @@ class ApiConnector
     end
 end
 
+
+api = ApiConnecter.new title:"Lol", url:"lol", desc: "asdasdl"
