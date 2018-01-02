@@ -12,6 +12,10 @@ class ApiConnector
         p @desc
         p @url
     end
+
+    def api_logger
+        puts "API Connector Starting"
+    end
 end
 
 class SmsConnector < ApiConnector
@@ -26,3 +30,5 @@ end
 api = ApiConnector.new(title: 'test', url: 'test',desc: 'test')
 
 api.testing_init
+
+
