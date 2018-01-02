@@ -14,6 +14,10 @@ class ApiConnector
     end
 end
 
+class SmsConnector < ApiConnector
+
+end
+
 
 api = ApiConnector.new(title: 'test', url: 'test',desc: 'test')
 
