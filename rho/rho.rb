@@ -30,5 +30,5 @@ end
 api = SmsConnector.new(title: 'test', url: 'test',desc: 'test')
 
 api.testing_init
-
+api.api_logger
 
