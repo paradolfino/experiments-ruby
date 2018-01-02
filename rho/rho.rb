@@ -19,7 +19,7 @@ class ApiConnector
 end
 
 class SmsConnector < ApiConnector
-    def api_logger
+    def api_logger #polymorphism of parent class method
         puts "Phone Connector Starting"
     end
 
