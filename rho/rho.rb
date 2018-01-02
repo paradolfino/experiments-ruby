@@ -19,6 +19,9 @@ class ApiConnector
 end
 
 class SmsConnector < ApiConnector
+    def api_logger
+        puts "Phone Connector Starting"
+    end
 
 private
     def send
