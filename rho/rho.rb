@@ -18,7 +18,7 @@ class SmsConnector < ApiConnector
 
 private
     def send
-
+        puts "Test"
     end
 end
 
