@@ -27,7 +27,7 @@ private
 end
 
 
-api = ApiConnector.new(title: 'test', url: 'test',desc: 'test')
+api = SmsConnector.new(title: 'test', url: 'test',desc: 'test')
 
 api.testing_init
 
