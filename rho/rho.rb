@@ -15,7 +15,9 @@ class ApiConnector
 end
 
 class SmsConnector < ApiConnector
+    def send
 
+    end
 end
 
 
