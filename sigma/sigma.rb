@@ -27,7 +27,7 @@
 #deleting
 #===========================
 
-File.delete("test.rb")
+#File.delete("test.rb")
 
 #appending
 #===========================
