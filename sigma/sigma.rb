@@ -35,4 +35,7 @@
 10.times do
     sleep 1
     puts "Rekord ridda"
+    File.open("test.rb","a") do |file|
+        file.puts "puts 'test'"
+    end
 end
