@@ -1,4 +1,4 @@
-#files
+#files - saving/creating
 File.open("test.rb","a") do |file|
     file.puts "puts 'test'"
 end
@@ -15,3 +15,4 @@ end
 # w+ - reading and writing
 # a+ - reading and appending
 # r+ - updating, reading and writing
+
