@@ -23,3 +23,5 @@ end
 # p reader.split('\\n')
 
 #deleting
+
+File.delete("test.rb")
