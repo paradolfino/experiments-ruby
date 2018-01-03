@@ -19,4 +19,4 @@ end
 #reading
 
 reader = File.read("sigma.rb")
-p reader
+p reader.split(',')
