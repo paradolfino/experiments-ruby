@@ -1,4 +1,5 @@
 #files - saving/creating
+#===========================
 # File.open("test.rb","a") do |file|
 #     file.puts "puts 'test'"
 # end
@@ -17,11 +18,13 @@
 # r+ - updating, reading and writing
 
 #reading
+#===========================
 
 # reader = File.read("sigma.rb")
 # reader2 = File.read("test.rb")
 # p reader.split('\\n')
 
 #deleting
+#===========================
 
 File.delete("test.rb")
