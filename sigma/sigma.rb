@@ -34,4 +34,5 @@
 
 10.times do
     sleep 1
+    puts "Rekord ridda"
 end
