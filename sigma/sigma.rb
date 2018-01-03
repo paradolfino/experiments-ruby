@@ -19,4 +19,5 @@ end
 #reading
 
 reader = File.read("sigma.rb")
+reader = File.read("test.rb")
 p reader.split(',')
