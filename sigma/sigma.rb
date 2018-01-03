@@ -16,3 +16,5 @@ end
 # a+ - reading and appending
 # r+ - updating, reading and writing
 
+#reading
+
