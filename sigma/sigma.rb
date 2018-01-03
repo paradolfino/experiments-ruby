@@ -36,6 +36,6 @@
     sleep 1
     puts "Rekord ridda"
     File.open("test.rb","a") do |file|
-        file.puts "puts 'test'"
+        file.puts "Logging at #{Time.new}"
     end
 end
