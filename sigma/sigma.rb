@@ -20,4 +20,4 @@ end
 
 reader = File.read("sigma.rb")
 reader2 = File.read("test.rb")
-p reader.split('\n')
+p reader.split('\\n')
