@@ -18,6 +18,6 @@ end
 
 #reading
 
-reader = File.read("sigma.rb")
-reader2 = File.read("test.rb")
-p reader.split('\\n')
+# reader = File.read("sigma.rb")
+# reader2 = File.read("test.rb")
+# p reader.split('\\n')
