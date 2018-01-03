@@ -4,6 +4,8 @@ File.open("test.rb","a") do |file|
 end
 
 #File.open("test.rb","a") { |file| file.write("test") }
+#file_to_save = File.new("test.rb","a")
+#file_to_save.puts("Testest")
 
 # .open second param
 # r - reading
