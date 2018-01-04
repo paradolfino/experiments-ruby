@@ -14,6 +14,6 @@
 
 begin
     puts nil + 10
-rescue StandardError => end
+rescue StandardError => e
     puts "Error: #{e}"
 end
