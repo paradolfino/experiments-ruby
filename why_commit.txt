@@ -12,3 +12,4 @@
 31/12/2017 18:25:pool[serene-steaming-cow-ib2w8d]: practice OOP class, init, strongly defined args for init
 01/01/2018 20:53:pool[pretty-living-rabbit-omw375]: practice class inheritance, private/protected methods, polymorphism and super
 02/01/2018 19:43:pool[rapid-steaming-river-3v4gcr]: practice work on files
+03/01/2018 19:45:pool[pretty-rolling-cow-e4h2r6]: practice error handling
