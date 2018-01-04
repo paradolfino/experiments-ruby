@@ -22,6 +22,6 @@
 
 def err_log(e)
     File.open("errlog.txt","a") do |file|
-        
+        file.puts e
     end
 end
