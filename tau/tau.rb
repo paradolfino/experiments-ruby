@@ -27,7 +27,7 @@ def err_log(e)
 end
 
 begin
-    puts nil + 10
+    puts 8/0
 rescue StandardError => e
     err_log("[#{Time.now}]: Error(#{e})")
 end
