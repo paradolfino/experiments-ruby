@@ -19,3 +19,9 @@
 # end
 
 #custom error handling
+
+def err_log(e)
+    File.open("errlog.txt","a") do |file|
+        
+    end
+end
