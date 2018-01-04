@@ -9,5 +9,5 @@
 begin
     puts 8/0
 rescue ZeroDivisionError => e
-    puts e
+    puts "You tried to #{e}"
 end
