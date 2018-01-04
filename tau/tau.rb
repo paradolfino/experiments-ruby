@@ -6,8 +6,14 @@
 #     puts "Rescued Error"
 # end
 
+# begin
+#     puts 8/0
+# rescue ZeroDivisionError => e
+#     puts "Error: #{e}..."
+# end
+
 begin
-    puts 8/0
-rescue ZeroDivisionError => e
-    puts "Error: #{e}..."
+    puts nil + 10
+rescue
+
 end
