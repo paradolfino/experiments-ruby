@@ -25,3 +25,10 @@ def err_log(e)
         file.puts e
     end
 end
+
+begin
+    puts nil + 10
+rescue StandardError => e
+    err_log("[#{Time.now}]: Error(#{e})")
+end
+
