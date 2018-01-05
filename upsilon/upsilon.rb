@@ -8,4 +8,4 @@ p string =~ /z/ ? "Valid" : "Invalid"
 
 p string =~ /Z/i ? "Valid" : "Invalid" #case insensitive
 
-p string.to_enum(:scan, /\d+/)
+p string.to_enum(:scan, /\d+/).map { Regexp.last_match }
