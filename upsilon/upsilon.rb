@@ -6,4 +6,4 @@ p string =~ /quick/
 
 p string =~ /z/ ? "Valid" : "Invalid"
 
-p string =~ /Z/ ? "Valid" : "Invalid"
+p string =~ /Z/i ? "Valid" : "Invalid"
