@@ -7,3 +7,5 @@ p string =~ /quick/
 p string =~ /z/ ? "Valid" : "Invalid"
 
 p string =~ /Z/i ? "Valid" : "Invalid" #case insensitive
+
+p string.to_enum(:scan, /\d+/)
