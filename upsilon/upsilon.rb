@@ -10,11 +10,14 @@
 
 # p string.to_enum(:scan, /\d+/).map { Regexp.last_match } #scans and returns all of the integers
 
-VALID_EMAIL_REGEX = /\A([\w+\-].?)+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
+# VALID_EMAIL_REGEX = /\A([\w+\-].?)+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
 
-def is_valid_email? email
-    email =~ VALID_EMAIL_REGEX ? "Valid" : "Invalid"
-end
+# def is_valid_email? email
+#     email =~ VALID_EMAIL_REGEX ? "Valid" : "Invalid"
+# end
 
-p is_valid_email?("zozo@zoho.com")
-p is_valid_email?("zozozohocom")
+# p is_valid_email?("zozo@zoho.com")
+# p is_valid_email?("zozozohocom")
+
+
+IP_ADDRESS_REGEX = /^((?:(?:^|\.)(?:\d|[1-9]\d|1\d{2}|2[0-4]\d|25[0-5])){4})$/
