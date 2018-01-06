@@ -21,3 +21,9 @@
 
 
 IP_ADDRESS_REGEX = /^((?:(?:^|\.)(?:\d|[1-9]\d|1\d{2}|2[0-4]\d|25[0-5])){4})$/
+
+def validated_ip? ip
+    ip =~ IP_ADDRESS_REGEX ? "valid" : "not valid"
+end
+
+
