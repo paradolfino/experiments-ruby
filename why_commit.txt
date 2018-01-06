@@ -16,3 +16,4 @@
 04/01/2018 19:58:pool[pretty-steaming-mountain-ho0jk4]: practice begin ruby regular expressions
 05/01/2018 20:15:pool[serene-steaming-cow-hi8d68]: practice email validation with regex
 06/01/2018 14:51:pool[brilliant-steaming-cow-c031gf]: practice ruby regex with ip address validation
+06/01/2018 14:58:pool[rapid-steaming-mountain-x3wt8e]: further practice with ruby regex, :scan and to_enum

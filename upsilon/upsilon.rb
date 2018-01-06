@@ -20,12 +20,17 @@
 # p is_valid_email?("zozozohocom")
 
 
-IP_ADDRESS_REGEX = /^((?:(?:^|\.)(?:\d|[1-9]\d|1\d{2}|2[0-4]\d|25[0-5])){4})$/
+# IP_ADDRESS_REGEX = /^((?:(?:^|\.)(?:\d|[1-9]\d|1\d{2}|2[0-4]\d|25[0-5])){4})$/
 
-def validated_ip? ip
-    ip =~ IP_ADDRESS_REGEX ? "valid" : "not valid"
-end
+# def validated_ip? ip
+#     ip =~ IP_ADDRESS_REGEX ? "valid" : "not valid"
+# end
 
-p validated_ip?("999.99.0.0")
-p validated_ip?("172.16.0.0")
+# p validated_ip?("999.99.0.0")
+# p validated_ip?("172.16.0.0")
 
+re = /w/i
+
+str = "White Willows"
+
+p str.to_enum(:scan, re).map { Regexp.last_match }
