@@ -26,4 +26,5 @@ def validated_ip? ip
     ip =~ IP_ADDRESS_REGEX ? "valid" : "not valid"
 end
 
+p validated_ip("999.99.99")
 
