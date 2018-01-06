@@ -29,3 +29,6 @@
 # p validated_ip?("999.99.0.0")
 # p validated_ip?("172.16.0.0")
 
+re = /w/i
+
+str = "White Willows"
