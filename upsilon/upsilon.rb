@@ -11,3 +11,7 @@
 # p string.to_enum(:scan, /\d+/).map { Regexp.last_match } #scans and returns all of the integers
 
 VALID_EMAIL_REGEX = /\A([\w+\-].?)+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
+
+def is_valid_email? email
+
+end
