@@ -17,4 +17,4 @@ def is_valid_email? email
 end
 
 p is_valid_email?("zozo@zoho.com")
-p is_valid_email?("zozozoho.com")
+p is_valid_email?("zozozohocom")
