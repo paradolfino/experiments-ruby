@@ -33,4 +33,4 @@ re = /w/i
 
 str = "White Willows"
 
-p str =~ re
+p str.to_enum(:scan, re).map { Regexp.last_match }
