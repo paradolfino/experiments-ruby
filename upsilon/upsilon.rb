@@ -32,3 +32,5 @@
 re = /w/i
 
 str = "White Willows"
+
+p str =~ re
