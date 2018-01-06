@@ -14,3 +14,4 @@
 02/01/2018 19:43:pool[rapid-steaming-river-3v4gcr]: practice work on files
 03/01/2018 19:45:pool[pretty-rolling-cow-e4h2r6]: practice error handling
 04/01/2018 19:58:pool[pretty-steaming-mountain-ho0jk4]: practice begin ruby regular expressions
+05/01/2018 20:15:pool[serene-steaming-cow-hi8d68]: practice email validation with regex
