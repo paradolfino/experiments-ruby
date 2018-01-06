@@ -16,4 +16,4 @@ def is_valid_email? email
     email =~ VALID_EMAIL_REGEX
 end
 
-p is_valid_email? "zozo@zoho.com" ? "Valid" : "Invalid"
+p is_valid_email?("zozo@zoho.com") ? "Valid" : "Invalid"
