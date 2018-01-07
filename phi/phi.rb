@@ -10,6 +10,7 @@ while sent_arr.count("") < acc_count.count
     if sent_arr.include?(guess)
         letter_index = sent_arr.find_index(guess)
         sent_arr[letter_index] = ""
+        fin_sent[letter_index] = guess
     else
 
     end
