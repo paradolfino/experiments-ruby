@@ -1,0 +1,21 @@
+25/12/2017 20:57:pool[102w04]: practice using ruby procs
+26/12/2017 20:43:pool[pretty-living-cow-le2762]: practice ruby lambdas
+26/12/2017 20:51:pool[rapid-shining-rabbit-nzxknb]: more practice on difference between procs and lambdas, and their behaviors
+26/12/2017 20:59:pool[brilliant-rolling-mountain-2j8340]: practice new method syntax for ruby 2.3
+27/12/2017 20:44:pool[serene-shining-mountain-4454kh]: practice with different styles of arguments/orders and default arguments
+27/12/2017 20:57:pool[rapid-rolling-rabbit-3h65u8]: practice splay, key/val splat, and optional value args
+28/12/2017 22:45:pool[serene-rolling-river-72khwu]: test living code for creation of ReapConsole
+29/12/2017 21:29:pool[rapid-living-river-w3n6i6]: practice for in, nested iterators, select, and regex with select
+30/12/2017 19:15:pool[brilliant-living-rabbit-510e51]: practice ruby map method
+30/12/2017 19:24:pool[rapid-shining-rabbit-u5yyu5]: practice ruby inject method
+31/12/2017 18:17:pool[pretty-rolling-mountain-hv8arv]: practice OOP
+31/12/2017 18:25:pool[serene-steaming-cow-ib2w8d]: practice OOP class, init, strongly defined args for init
+01/01/2018 20:53:pool[pretty-living-rabbit-omw375]: practice class inheritance, private/protected methods, polymorphism and super
+02/01/2018 19:43:pool[rapid-steaming-river-3v4gcr]: practice work on files
+03/01/2018 19:45:pool[pretty-rolling-cow-e4h2r6]: practice error handling
+04/01/2018 19:58:pool[pretty-steaming-mountain-ho0jk4]: practice begin ruby regular expressions
+05/01/2018 20:15:pool[serene-steaming-cow-hi8d68]: practice email validation with regex
+06/01/2018 14:51:pool[brilliant-steaming-cow-c031gf]: practice ruby regex with ip address validation
+06/01/2018 14:58:pool[rapid-steaming-mountain-x3wt8e]: further practice with ruby regex, :scan and to_enum
+06/01/2018 19:54:pool[serene-rolling-cow-62465f]: practice two different methods for matching strings
+07/01/2018 14:27:pool[rapid-steaming-river-i1quw6]: practice with grep and create a list of all folders and their subjects

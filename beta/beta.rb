@@ -1,3 +1,4 @@
+#methods 
 def start
     puts "What kind of calculation?"
     puts "1. Multiply"

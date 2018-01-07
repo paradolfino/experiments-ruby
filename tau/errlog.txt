@@ -1,0 +1,2 @@
+[2018-01-03 19:44:01 -0600]: Error(undefined method `+' for nil:NilClass)
+[2018-01-03 19:44:23 -0600]: Error(divided by 0)
