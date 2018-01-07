@@ -2,6 +2,7 @@ This is just for Ruby experiments.
 
 NO RAILS
 
+
 Here's a list of each folder with the subject that is covered:
 
 __alpha__ - puts  
@@ -24,4 +25,5 @@ __tau__ - error handling
 __upsilon__ - regular expressions  
 __phi__ - gsub with regex, include, find_index  
 __chi__ - grep  
+
 
