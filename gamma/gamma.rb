@@ -1,3 +1,4 @@
+#select, uniq
 def randomArr
     a = []
     100.times { a.push(rand(100)) }
