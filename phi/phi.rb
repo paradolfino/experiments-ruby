@@ -13,6 +13,6 @@ while sent_arr.count("") < acc_count.count
         fin_sent[letter_index] = guess
         puts "Stammer! Sentensen ar nare: #{fin_sent}"
     else
-
+        puts "Undskyld, det letter ar ikke det hoger svar, snalla trar egen."
     end
 end
