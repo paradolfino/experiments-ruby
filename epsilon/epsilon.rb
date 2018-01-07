@@ -1,3 +1,4 @@
+#each, times, loop do, single line code blocks
 def form_area_codes(city)
     area_code = [rand(9), rand(9), rand(9)]
     return {city: city, code: area_code.join('')}
