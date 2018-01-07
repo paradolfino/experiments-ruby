@@ -1,2 +1,2 @@
 #grep
-(0..277).to_a
+arr = ['hey.rb', 'there.rb', 'index.html']
