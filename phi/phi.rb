@@ -11,7 +11,7 @@ while sent_arr.count("") < acc_count.count
         letter_index = sent_arr.find_index(guess)
         sent_arr[letter_index] = ""
         fin_sent[letter_index] = guess
-        puts "Stammer! Sentensen ar nare: #{fin_sent}"
+        puts "Stammer! Sentensen ar nare: #{fin_sent.join}"
     else
         puts "Undskyld, det letter ar ikke det hoger svar, snalla trar egen."
     end
