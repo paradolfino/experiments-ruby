@@ -5,5 +5,5 @@ fin_sent = start_sent.gsub(/[a-zA-Z]/, "_").split("")
 
 while sent_arr.count("") < acc_count.count
     puts "Guess en letter: "
-    guess = gets.chomp
+    guess = gets.chomp.downcase
 end
