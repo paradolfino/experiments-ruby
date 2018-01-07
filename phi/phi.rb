@@ -8,8 +8,8 @@ while sent_arr.count("") < acc_count.count
     guess = gets.downcase.chomp
 
     if sent_arr.include?(guess)
-    
+        letter_index = sent_arr.find_index(guess)
     else
-        
+
     end
 end
