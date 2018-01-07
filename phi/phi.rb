@@ -8,6 +8,8 @@ while sent_arr.count("") < acc_count.count
     guess = gets.downcase.chomp
 
     if sent_arr.include?(guess)
-
+    
+    else
+        
     end
 end
