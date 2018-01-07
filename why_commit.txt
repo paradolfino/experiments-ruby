@@ -18,3 +18,4 @@
 06/01/2018 14:51:pool[brilliant-steaming-cow-c031gf]: practice ruby regex with ip address validation
 06/01/2018 14:58:pool[rapid-steaming-mountain-x3wt8e]: further practice with ruby regex, :scan and to_enum
 06/01/2018 19:54:pool[serene-rolling-cow-62465f]: practice two different methods for matching strings
+07/01/2018 14:27:pool[rapid-steaming-river-i1quw6]: practice with grep and create a list of all folders and their subjects
