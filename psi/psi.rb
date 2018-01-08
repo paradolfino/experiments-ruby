@@ -17,3 +17,4 @@ p media.movie
 p media.actors.length
 p media.actors.push({age: 33, name: "what"})
 p media.actors.length
+p media.favorite?
