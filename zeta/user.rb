@@ -1,3 +1,4 @@
+#modules, classes, and inheritance
 module Destructable
     def destroy(object)
         puts "I will destroy #{object}"
