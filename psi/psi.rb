@@ -11,3 +11,5 @@ hash = {
     ],
     favorite: true
 }
+
+p media = Dish(hash)
