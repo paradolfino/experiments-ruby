@@ -14,3 +14,4 @@ hash = {
 
 p media = Dish(hash)
 p media.movie
+p media.actors.length
