@@ -13,3 +13,4 @@ hash = {
 }
 
 p media = Dish(hash)
+p media.movie
