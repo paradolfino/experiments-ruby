@@ -8,5 +8,6 @@ hash = {
         {age: 22, name: "luke"},
         {age: 35, name: "han"},
         {age: 400, name: "yoda"}
-    ]
+    ],
+    favorite: true
 }
