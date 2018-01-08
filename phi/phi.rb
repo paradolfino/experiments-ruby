@@ -1,3 +1,4 @@
+#gsub with regex, include, find_index
 start_sent = "Hej fran matkier land!"
 sent_arr = start_sent.downcase.split('')
 acc_count = sent_arr - [" "] #subtract all empty spaces in array
