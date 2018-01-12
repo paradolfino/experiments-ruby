@@ -25,4 +25,4 @@ class String
     end
 end
 
-p "The quick brown fox jumped over the fence".censor("brown")
+p "The quick brown fox jumped over the brown fence".censor("brown")
