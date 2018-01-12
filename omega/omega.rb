@@ -24,3 +24,5 @@ class String
         self.gsub! "#{word}", "####"
     end
 end
+
+p "The quick brown fox jumped over the fence".censor("brown")
