@@ -1,20 +1,20 @@
 #metaprogramming
 
-class Kos
-end
+# class Kos
+# end
 
-class Kos
-    def sword
-        "SHING!"
-    end
-end
+# class Kos
+#     def sword
+#         "SHING!"
+#     end
+# end
 
-# p Kos.new.sword
+# p Kos.new.sword => "SHING!"
 
-class Kos
-    def sword
-        "SHWAP!"
-    end
-end
+# class Kos
+#     def sword
+#         "SHWAP!"
+#     end
+# end
 
-p Kos.new.sword
+# p Kos.new.sword => "SHWAP"
