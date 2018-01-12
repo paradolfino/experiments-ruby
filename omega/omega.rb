@@ -23,6 +23,10 @@ class String
     def censor(word)
         self.gsub! "#{word}", "####"
     end
+
+    def chars
+
+    end
 end
 
 p "The quick brown fox jumped over the brown fence".censor("brown")
