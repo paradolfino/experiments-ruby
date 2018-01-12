@@ -9,4 +9,12 @@ class Kos
     end
 end
 
+# p Kos.new.sword
+
+class Kos
+    def sword
+        "SHWAP!"
+    end
+end
+
 p Kos.new.sword
