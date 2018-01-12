@@ -20,3 +20,4 @@
 06/01/2018 19:54:pool[serene-rolling-cow-62465f]: practice two different methods for matching strings
 07/01/2018 14:27:pool[rapid-steaming-river-i1quw6]: practice with grep and create a list of all folders and their subjects
 08/01/2018 15:07:pool[brilliant-steaming-rabbit-qf6kfa]: practice using dish gem on a hash
+11/01/2018 19:30:pool[serene-rolling-cow-kwg848]: practice metaprogramming and opening up core ruby classes for modification
