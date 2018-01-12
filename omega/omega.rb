@@ -21,6 +21,6 @@
 
 class String
     def censor(word)
-
+        self.gsub! "#{word}", "####"
     end
 end
