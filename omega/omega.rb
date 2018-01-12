@@ -25,7 +25,7 @@ class String
     end
 
     def chars
-
+        size
     end
 end
 
