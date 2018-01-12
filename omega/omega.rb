@@ -3,4 +3,10 @@
 class Kos
 end
 
-Kos.new.sword
+class Kos
+    def sword
+        "SHING!"
+    end
+end
+
+p Kos.new.sword
