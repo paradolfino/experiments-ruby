@@ -18,3 +18,9 @@
 # end
 
 # p Kos.new.sword => "SHWAP"
+
+class String
+    def censor(word)
+
+    end
+end
