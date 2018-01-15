@@ -17,6 +17,10 @@ class Author
         end
     end
 
+    def respond_to_missing?(method_name, include_private = false)
+
+    end
+
 end
 
 author = Author.new
