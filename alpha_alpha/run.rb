@@ -1,4 +1,4 @@
-#metaprogramming - self-writing code
+#metaprogramming - method_missing
 require 'ostruct'
 
 class Author
