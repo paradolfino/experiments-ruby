@@ -18,3 +18,8 @@ class Author
     end
 
 end
+
+author = Author.new
+author.fname = "Kal"
+author.lname = "Noport"
+author.genre = "Kompoter Skansa"
