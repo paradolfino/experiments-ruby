@@ -24,4 +24,4 @@ author.fname = "Kal"
 author.lname = "Noport"
 author.genre = "Kompoter Skansa"
 
-p author
+p author.fname
