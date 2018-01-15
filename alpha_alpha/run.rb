@@ -23,3 +23,5 @@ author = Author.new
 author.fname = "Kal"
 author.lname = "Noport"
 author.genre = "Kompoter Skansa"
+
+p author
