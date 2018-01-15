@@ -11,7 +11,7 @@ class Author
     def method_missing(method_name, *args, &block)
         # author_....
         if method_name.to_s =~ /author_(.*)/
-            author.send($1, *args, &block)
+            author.send($1, *args, &block) #explicit
         else
             super
         end
