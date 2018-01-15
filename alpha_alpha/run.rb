@@ -12,6 +12,8 @@ class Author
         # author_....
         if name.to_s =~ /author_(.*)/
             author.send($1, *args, &block)
+        else
+            super
         end
     end
 
