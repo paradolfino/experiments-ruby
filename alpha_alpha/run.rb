@@ -8,9 +8,9 @@ class Author
         OpenStruct.new(fname: fname, lname: lname, genre: genre)
     end
 
-    def method_missing(name, *args, &block)
+    def method_missing(method_name, *args, &block)
         # author_....
-        if name.to_s =~ /author_(.*)/
+        if method_name.to_s =~ /author_(.*)/
             author.send($1, *args, &block)
         else
             super
@@ -18,7 +18,7 @@ class Author
     end
 
     def respond_to_missing?(method_name, include_private = false)
-
+        method_name.to_s.start_with?('author_') || super
     end
 
 end
