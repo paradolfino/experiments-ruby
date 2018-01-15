@@ -9,7 +9,8 @@ class Author
     end
 
     def method_missing(name, *args, &block)
-
+        # author_....
+        
     end
 
 end
