@@ -8,4 +8,8 @@ class Author
         OpenStruct.new(fname: fname, lname: lname, genre: genre)
     end
 
+    def method_missing(name, *args, &block)
+
+    end
+
 end
