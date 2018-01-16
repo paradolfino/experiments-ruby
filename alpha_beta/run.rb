@@ -46,4 +46,4 @@ class Author
 end
 
 author = Author.new
-author.cg_details("Kal Noport")
+author.fiction_details("Kal Noport")
