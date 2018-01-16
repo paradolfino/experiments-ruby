@@ -13,23 +13,24 @@
 
 class Author
 
-    def fiction_details(arg)
-        puts "Fiction"
-        puts arg
-        puts "sad"
-    end
+    ## BAD ##
+    # def fiction_details(arg)
+    #     puts "Fiction"
+    #     puts arg
+    #     puts "sad"
+    # end
 
-    def coding_details(arg)
-        puts "coding"
-        puts arg
-        puts "sad"
-    end
+    # def coding_details(arg)
+    #     puts "coding"
+    #     puts arg
+    #     puts "sad"
+    # end
 
-    def history_details(arg)
-        puts "history"
-        puts arg
-        puts "sad"
-    end
+    # def history_details(arg)
+    #     puts "history"
+    #     puts arg
+    #     puts "sad"
+    # end
 
 end
 
