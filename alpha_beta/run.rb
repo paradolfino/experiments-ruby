@@ -47,4 +47,4 @@ end
 
 author = Author.new
 author.fiction_details("Kal Noport")
-author.respond_to?(:coding_details)
+p author.respond_to?(:coding_details)
