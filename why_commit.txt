@@ -22,3 +22,4 @@
 08/01/2018 15:07:pool[brilliant-steaming-rabbit-qf6kfa]: practice using dish gem on a hash
 11/01/2018 19:30:pool[serene-rolling-cow-kwg848]: practice metaprogramming and opening up core ruby classes for modification
 14/01/2018 19:14:pool[rapid-steaming-cow-sh1wrc]: practice metaprogramming with method_missing and respond_to_missing?
+15/01/2018 19:52:pool[brilliant-steaming-mountain-w47o3w]: practice metaprogramming: define method
