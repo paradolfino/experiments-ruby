@@ -11,7 +11,7 @@
 # author = Author.new
 # author.some_method
 
-class Authoer
+class Author
 
     def fiction_details(arg)
         puts "Fiction"
@@ -32,3 +32,6 @@ class Authoer
     end
 
 end
+
+author = Author.new
+author.coding_details("Kal Noport")
