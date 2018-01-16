@@ -5,3 +5,6 @@ class Author
         puts "some detail"
     end
 end
+
+author = Author.new
+author.some_method
