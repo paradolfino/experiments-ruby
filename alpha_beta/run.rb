@@ -32,6 +32,8 @@ class Author
     #     puts "sad"
     # end
 
+    ## GOOD ##
+
 end
 
 author = Author.new
