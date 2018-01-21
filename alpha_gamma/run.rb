@@ -12,3 +12,4 @@ class EdutechionalResty
 end
 
 edu = EdutechionalResty.new
+puts edu.posts
