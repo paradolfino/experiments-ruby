@@ -26,5 +26,5 @@ end
 
 se = StackEx.new('stackoverflow', 1)
 
-p s
+p se
 
