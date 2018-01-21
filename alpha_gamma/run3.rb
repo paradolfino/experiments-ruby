@@ -20,6 +20,6 @@ class StackEx
     end
 
     def users
-
+        self.class.get('/2.2/users',@options)
     end
 end
