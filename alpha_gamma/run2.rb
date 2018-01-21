@@ -7,4 +7,5 @@ response = HTTParty.get('https://api.stackexchange.com/2.2/questions?site=stacko
 
 # puts response.body
 # puts response.code
-puts response.message
+# puts response.message
+puts response.headers.inspect
