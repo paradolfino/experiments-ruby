@@ -26,5 +26,6 @@ end
 
 se = StackEx.new('stackoverflow', 1)
 
-puts se.questions
+# puts se.questions
+puts se.users
 
