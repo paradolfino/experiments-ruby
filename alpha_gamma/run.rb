@@ -10,3 +10,5 @@ class EdutechionalResty
         self.class.get('/posts.json')
     end
 end
+
+edu = EdutechionalResty.new
