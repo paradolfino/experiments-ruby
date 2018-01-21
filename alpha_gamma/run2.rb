@@ -1,4 +1,4 @@
-#api
+#api - built in httparty methods
 require 'rubygems'
 require 'httparty'
 
