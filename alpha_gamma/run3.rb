@@ -14,4 +14,8 @@ class StackEx
             }
         }
     end
+
+    def questions
+
+    end
 end
