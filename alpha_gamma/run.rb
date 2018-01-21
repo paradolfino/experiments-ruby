@@ -1,6 +1,6 @@
 #api
 require 'rubygems'
-require 'httpary'
+require 'httparty'
 
 class EdutechionalResty
     include HTTParty
