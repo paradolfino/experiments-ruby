@@ -13,3 +13,5 @@ require 'httparty'
 
 # edu = EdutechionalResty.new
 # puts edu.posts
+
+response = HTTParty.get('https://api.stackexchange.com/2.2/questions?site=stackoverflow')
