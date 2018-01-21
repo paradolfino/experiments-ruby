@@ -24,5 +24,5 @@ class StackEx
     end
 end
 
-se = StackEx.new('stackoverflow')
+se = StackEx.new('stackoverflow', 1)
 
