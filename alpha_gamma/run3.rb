@@ -1,4 +1,8 @@
-#api - built in httparty methods
+#api - custom class
 require 'rubygems'
 require 'httparty'
 ENV['SSL_CERT_FILE'] = 'D:\RailsInstaller\cacert.pem'
+
+class StackEx
+
+end
