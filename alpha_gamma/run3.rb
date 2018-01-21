@@ -18,4 +18,8 @@ class StackEx
     def questions
         self.class.get('/2.2/questions',@options)
     end
+
+    def users
+
+    end
 end
