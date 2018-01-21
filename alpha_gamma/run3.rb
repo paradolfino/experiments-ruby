@@ -16,6 +16,6 @@ class StackEx
     end
 
     def questions
-
+        self.class.get('/2.2/questions',@options)
     end
 end
